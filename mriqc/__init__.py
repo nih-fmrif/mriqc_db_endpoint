@@ -1,0 +1,1 @@
+from .mriqc import app
