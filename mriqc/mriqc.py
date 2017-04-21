@@ -15,7 +15,7 @@ api = Api(app)
 mongo = PyMongo(app)
 
 # Auth Token: change this to something more random
-API_KEY = 'secret-key'
+API_KEY = 'ZUsBaabr6PEbav5DKAHIODEnwpwC58oQTJF7KWvDBPUmBIVFFtwOd7lQBdz9r9ulJTR1BtxBDqDuY0owxK6LbLB1u1b64ZkIMd46'
 
 
 def api_token_required(func):
@@ -84,7 +84,7 @@ if __name__ == '__main__':
     port = 5000
 
     # Set debug to False for production
-    debug = True
+    debug = False
     app.run(
         host=host,
         port=port,
