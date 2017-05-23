@@ -6,7 +6,8 @@ The database backend uses MongoDB.
 ## Prerequisites
 
 To install MongoDB, follow the instructions on the official [MongoDB docs
-site](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-red-hat/).
+site for Centos](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-red-hat/)
+or [Digital Ocean docs for Ubuntu 16.04](https://www.digitalocean.com/community/tutorials/how-to-install-mongodb-on-ubuntu-16-04). After installing on Ubuntu, you may need to restart the server.
 
 To install Flask and other Python dependencies, run:
 
